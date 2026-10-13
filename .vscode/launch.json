@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "main_class",
+            "request": "launch",
+            "mainClass": "electricity.billing.system.main_class",
+            "projectName": "Electricity-Billing-System-JSON_88409165"
+        },
+        {
+            "type": "java",
+            "name": "Electricity Billing System",
+            "request": "launch",
+            "mainClass": "electricity.billing.system.Splash",
+            "cwd": "${workspaceFolder}",
+            "classPaths": [
+                "$Auto",
+                "${workspaceFolder}/src"
+            ]
+        }
+    ]
+}

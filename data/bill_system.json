@@ -1,0 +1,58 @@
+{
+  "Signup": [
+    {
+      "meter_no": "0",
+      "username": "admin",
+      "name": "Administrator",
+      "password": "admin123",
+      "usertype": "Admin"
+    },
+    {
+      "meter_no": "52818",
+      "username": "AR Shourov",
+      "name": "AR Shourov",
+      "password": "101024",
+      "usertype": "Customer"
+    }
+  ],
+  "new_customer": [
+    {
+      "name": "AR Shourov",
+      "meter_no": "52818",
+      "address": "938/02, South Potuapara, Kanaikhali",
+      "city": "Natore",
+      "state": "Rajshahi,Bangladesh.",
+      "email": "arshourov40@gmail.com",
+      "phone_no": "01724-074434"
+    }
+  ],
+  "meter_info": [
+    {
+      "meter_number": "52818",
+      "meter_location": "Outside",
+      "meter_type": "Electric Meter",
+      "phase_code": "099",
+      "bill_type": "Normal",
+      "Days": "30"
+    }
+  ],
+  "bill": [
+    {
+      "meter_no": "52818",
+      "month": "August",
+      "unit": "24",
+      "total_bill": "333",
+      "status": "Paid"
+    }
+  ],
+  "tax": [
+    {
+      "cost_per_unit": "9",
+      "meter_rent": "47",
+      "service_charge": "22",
+      "service_tax": "57",
+      "swacch_bharat": "6",
+      "fixed_tax": "42"
+    }
+  ]
+}

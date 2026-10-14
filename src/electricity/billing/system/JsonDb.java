@@ -46,7 +46,7 @@ final class JsonDb {
         SCHEMA.put("new_customer", Arrays.asList("name", "meter_no", "address", "city", "state", "email", "phone_no"));
         SCHEMA.put("meter_info", Arrays.asList("meter_number", "meter_location", "meter_type", "phase_code", "bill_type", "Days"));
         SCHEMA.put("bill", Arrays.asList("meter_no", "month", "unit", "total_bill", "status"));
-        SCHEMA.put("tax", Arrays.asList("cost_per_unit", "meter_rent", "service_charge", "service_tax", "swacch_bharat", "fixed_tax"));
+        SCHEMA.put("tax", Arrays.asList("cost_per_unit", "meter_rent", "service_charge", "service_tax", "fixed_tax"));
     }
 
     private static final Object LOCK = new Object();

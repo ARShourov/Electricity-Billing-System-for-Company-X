@@ -108,7 +108,6 @@ public class calculate_bill extends Screen implements ActionListener{
                     totalBill += units * Integer.parseInt(resultSet.getString("cost_per_unit"));
                     totalBill += Integer.parseInt(resultSet.getString("meter_rent"));
                     totalBill += Integer.parseInt(resultSet.getString("service_charge"));
-                    totalBill += Integer.parseInt(resultSet.getString("swacch_bharat"));
                     totalBill += Integer.parseInt(resultSet.getString("fixed_tax"));
 
                 }

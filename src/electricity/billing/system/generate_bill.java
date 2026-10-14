@@ -125,7 +125,6 @@ public class generate_bill extends Screen implements ActionListener {
                 area.append(row("Meter rent", resultSet.getString("meter_rent")));
                 area.append(row("Service charge", resultSet.getString("service_charge")));
                 area.append(row("Service tax", resultSet.getString("service_tax")));
-                area.append(row("Swacch Bharat", resultSet.getString("swacch_bharat")));
                 area.append(row("Fixed tax", resultSet.getString("fixed_tax")));
 
             }
